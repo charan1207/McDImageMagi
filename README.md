@@ -53,6 +53,9 @@ McDImageRecognition is a machine learning project focused on image classificatio
    ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/3dfb0f8b-fe6b-4a95-8a39-77eb52c20033)
 
 7. **Predicted output**
+   The output will be a web application where users can upload an image, and the model will predict whether it belongs to one of the       specified categories with associated probabilities. The last two lines seem to include a command for running the Streamlit app and exposing it through localtunnel, a tool for exposing local servers to the internet
+   ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/d900c4b7-4568-4e11-8f2c-762bae446981)
+
    
    
 
