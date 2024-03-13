@@ -1,1 +1,1 @@
-# McDImageMagi
+# McDImageRecognition
