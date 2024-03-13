@@ -37,23 +37,23 @@ McDImageRecognition is a machine learning project focused on image classificatio
  ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/a3a69b6b-7811-4cc5-9e22-83b159600eca)
    
 4. **Model Evaluation:**
-   The trained model's performance is evaluated using a test set that was previously separated from the dataset. The accuracy score is          calculated, and a confusion matrix is generated to assess the model's ability to correctly classify 
+   The trained model's performance is evaluated using a test set that was previously separated from the dataset. The accuracy score is calculated, and a confusion matrix is generated to assess the model's ability to correctly classify 
    images into the specified categories.
   ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/59acc845-2136-4ed8-a561-95cbda7a1a6e)
 
 
 5. **Model Deployment:**
-    The trained SVM model is saved for future use using the pickle library. This serialized model can be easily loaded and used to make          predictions on new, unseen images without the need to retrain the model.
+    The trained SVM model is saved for future use using the pickle library. This serialized model can be easily loaded and used to make predictions on new, unseen images without the need to retrain the model.
   ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/d0ee163e-4e67-44bf-9483-0dbf6738ff53)
 
 
 6. **Streamlit Web App:**
-    A user-friendly web application is developed using Streamlit. Users can interact with the application by uploading an image through the       web interface. The uploaded image is then fed into the trained SVM model, and predictions with 
+    A user-friendly web application is developed using Streamlit. Users can interact with the application by uploading an image through the web interface. The uploaded image is then fed into the trained SVM model, and predictions with 
     probabilities for each class are displayed to the user.
    ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/3dfb0f8b-fe6b-4a95-8a39-77eb52c20033)
 
 7. **Predicted output**
-   The output will be a web application where users can upload an image, and the model will predict whether it belongs to one of the       specified categories with associated probabilities. The last two lines seem to include a command for running the Streamlit app and exposing it through localtunnel, a tool for exposing local servers to the internet
+   The output will be a web application where users can upload an image, and the model will predict whether it belongs to one of the specified categories with associated probabilities. The last two lines seem to include a command for running the Streamlit app and exposing it through localtunnel, a tool for exposing local servers to the internet
    ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/d900c4b7-4568-4e11-8f2c-762bae446981)
     
 ## Instructions for Running the Streamlit App:
@@ -61,10 +61,35 @@ McDImageRecognition is a machine learning project focused on image classificatio
 2. Run the app using `streamlit run app.py`.
 3. Upload an image and click the "Predict" button to see the model's predictions.
 
-Feel free to explore and contribute to the project. If you have any questions or suggestions, please open an issue or reach out.
 
-   
-   
+## UseCase
+A use case for McDonald's could involve employing the image classification model created in the provided code to enhance customer experience and streamline operations. Here are a few potential use cases:
+
+**1. Automated Menu Suggestions:**
+Implement the image classification model in a mobile app or kiosk system within McDonald's outlets.
+Customers can use the app to take a picture of their preferred food item, and the model predicts the category (e.g., big mac burger, french fries, nuggets).
+Provide personalized menu suggestions based on the identified category, promoting a more tailored and user-friendly experience.
+
+**2. Quality Control in Food Preparation:**
+Integrate the image classification model into the kitchen's food preparation process.
+Use cameras to capture images of prepared food items, and the model can verify if the items match the expected appearance.
+Improve quality control by ensuring that the final products meet McDonald's standards in terms of presentation.
+
+**3. Social Media Engagement:**
+Leverage the image classification model to analyze and categorize images shared by customers on social media platforms.
+McDonald's could use this information for social media marketing campaigns, engagement with user-generated content, and understanding customer preferences.
+
+**4. Inventory Management:**
+Integrate the model into the inventory management system to track and categorize ingredients and prepared food items.
+This can help in optimizing inventory levels, reducing waste, and ensuring that popular items are adequately stocked.
+
+**5. Drive-Through Optimization:**
+Implement the model at drive-throughs to streamline order processing.
+Customers can provide visual input of their desired menu items, and the system can use the model to quickly identify and process the order, potentially reducing order errors and wait times.
+
+
+
+Feel free to explore and contribute to the project. If you have any questions or suggestions, please open an issue or reach out.
 
 
 
