@@ -25,30 +25,35 @@ McDImageRecognition is a machine learning project focused on image classificatio
   ![image](https://github.com/charan1207/McDImageRecognition/blob/main/ImgMacD/Data%20collection.png?raw=true)
   
 
-3. **Preprocessing:**
+2. **Preprocessing:**
    The collected images undergo preprocessing to make them suitable for model training. Each image is resized to a common size of 150x150 pixels with three color channels (RGB). Additionally, the images are flattened to create a one-dimensional array for each image.
 
    ![image](https://github.com/charan1207/McDImageRecognition/blob/main/ImgMacD/preprocessing.png?raw=true)
 
-5. **Model Training:**
-   A Support Vector Machine (SVM) classifier is employed for the image classification task. The scikit-learn library is used for implementing the SVM model. Hyperparameter tuning is performed using GridSearchCV to find the optimal     
+3. **Model Training:**
+   A Support Vector Machine (SVM) classifier is employed for the image classification task. The scikit-learn library is used for          
+   implementing the SVM model. Hyperparameter tuning is performed using GridSearchCV to find the optimal     
    values for the regularization parameter (C) and the kernel coefficient (gamma).
  ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/a3a69b6b-7811-4cc5-9e22-83b159600eca)
    
-7. **Model Evaluation:**
-   The trained model's performance is evaluated using a test set that was previously separated from the dataset. The accuracy score is calculated, and a confusion matrix is generated to assess the model's ability to correctly classify 
+4. **Model Evaluation:**
+   The trained model's performance is evaluated using a test set that was previously separated from the dataset. The accuracy score is          calculated, and a confusion matrix is generated to assess the model's ability to correctly classify 
    images into the specified categories.
    ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/a02320ba-4ab6-4b39-948f-92a07c178242)
 
-9. **Model Deployment:**
-    The trained SVM model is saved for future use using the pickle library. This serialized model can be easily loaded and used to make predictions on new, unseen images without the need to retrain the model.
+5. **Model Deployment:**
+    The trained SVM model is saved for future use using the pickle library. This serialized model can be easily loaded and used to make          predictions on new, unseen images without the need to retrain the model.
   ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/d0ee163e-4e67-44bf-9483-0dbf6738ff53)
 
 
-11. **Streamlit Web App:**
-    A user-friendly web application is developed using Streamlit. Users can interact with the application by uploading an image through the web interface. The uploaded image is then fed into the trained SVM model, and predictions with 
+6. **Streamlit Web App:**
+    A user-friendly web application is developed using Streamlit. Users can interact with the application by uploading an image through the       web interface. The uploaded image is then fed into the trained SVM model, and predictions with 
     probabilities for each class are displayed to the user.
    ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/3dfb0f8b-fe6b-4a95-8a39-77eb52c20033)
+
+7. **Predicted output**
+   
+   
 
 
 
