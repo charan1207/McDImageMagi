@@ -39,7 +39,8 @@ McDImageRecognition is a machine learning project focused on image classificatio
 4. **Model Evaluation:**
    The trained model's performance is evaluated using a test set that was previously separated from the dataset. The accuracy score is          calculated, and a confusion matrix is generated to assess the model's ability to correctly classify 
    images into the specified categories.
-   ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/a02320ba-4ab6-4b39-948f-92a07c178242)
+  ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/59acc845-2136-4ed8-a561-95cbda7a1a6e)
+
 
 5. **Model Deployment:**
     The trained SVM model is saved for future use using the pickle library. This serialized model can be easily loaded and used to make          predictions on new, unseen images without the need to retrain the model.
