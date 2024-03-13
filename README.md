@@ -55,6 +55,13 @@ McDImageRecognition is a machine learning project focused on image classificatio
 7. **Predicted output**
    The output will be a web application where users can upload an image, and the model will predict whether it belongs to one of the       specified categories with associated probabilities. The last two lines seem to include a command for running the Streamlit app and exposing it through localtunnel, a tool for exposing local servers to the internet
    ![image](https://github.com/charan1207/McDImageRecognition/assets/28255223/d900c4b7-4568-4e11-8f2c-762bae446981)
+    
+## Instructions for Running the Streamlit App:
+1. Install required dependencies using `pip install -r requirements.txt`.
+2. Run the app using `streamlit run app.py`.
+3. Upload an image and click the "Predict" button to see the model's predictions.
+
+Feel free to explore and contribute to the project. If you have any questions or suggestions, please open an issue or reach out.
 
    
    
